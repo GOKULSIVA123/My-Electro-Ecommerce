@@ -1,0 +1,12 @@
+.slider-container {
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 40px; /* Increased from 20px */
+}
+
+.menu-slide {
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
