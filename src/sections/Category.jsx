@@ -29,23 +29,23 @@ function Category() {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-5 gap-16 p-6">
       <div data-aos='zoom-in' data-aos-delay='50' className="text-center">
-      <img  src={speaker} className="md:w-32 md:h-32 rounded-full object-cover" />
+      <img  src={speaker} className="w-30 h-30 md:w-32 md:h-32 rounded-full object-cover" />
       <h1 className='font-[600] text-4xl md:text-2xl mt-5 hover:text-blue-600 cursor-pointer'>Portable Speaker</h1>
       </div>
       <div  data-aos='zoom-in' data-aos-delay='50' className='text-center'>
-      <img src={mouse} className="md:w-32 md:h-32 rounded-full object-cover" />
+      <img src={mouse} className="w-30 h-30 md:w-32 md:h-32 rounded-full object-cover" />
       <h1  className='text-4xl font-[600] md:text-2xl mt-5 hover:text-blue-600 cursor-pointer'>Mouse</h1>
       </div>
       <div data-aos='zoom-in' data-aos-delay='50' className='text-center'>
-      <img src={laptop} className="md:w-32 md:h-32 rounded-full object-cover" />
+      <img src={laptop} className="w-30 h-30 md:w-32 md:h-32 rounded-full object-cover" />
       <h1 className='text-4xl font-[600] md:text-2xl mt-5 hover:text-blue-600 cursor-pointer'>Laptop</h1>
       </div>
       <div data-aos='zoom-in' data-aos-delay='50' className='text-center'>
-      <img  src={pendrive} className="md:w-32 md:h-32 rounded-full object-cover" />
+      <img  src={pendrive} className="w-30 h-30 md:w-32 md:h-32 rounded-full object-cover" />
       <h1 className='text-4xl font-[600] md:text-2xl mt-5 hover:text-blue-600 cursor-pointer'>Pen Driver</h1>
       </div>
       <div  data-aos='zoom-in' data-aos-delay='50' className='text-center'>
-      <img src={watch} className="md:w-32 md:h-32 rounded-full object-cover" />
+      <img src={watch} className="w-30 h-30 md:w-32 md:h-32 rounded-full object-cover" />
       <h1 className='text-4xl font-[600] md:text-2xl mt-5 hover:text-blue-600 cursor-pointer'>Watch</h1>
       </div>
     </div>

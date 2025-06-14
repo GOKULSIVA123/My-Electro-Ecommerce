@@ -39,16 +39,16 @@ function Hero() {
             className="w-full md:h-[500px] lg:h-[700px] flex flex-col justify-center items-start gap-5 bg-cover bg-center"
             style={{ backgroundImage: `url(${dslr})` }}
           >
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-[yellow] border border-[yellow] rounded-lg ml-10 px-6 py-3 text-xl">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="px-2 py-2 text-[yellow] border border-[yellow] rounded-lg ml-10 md:px-6 md:py-3 text-xl">
               Get Upto 80% Discount Offer
             </h1>
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-8xl text-white font-[600] ml-10">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-3xl md:text-8xl text-white font-[600] ml-10">
               DSLR 360 <br/>CAMERA
             </h1>
             <h1 data-aos='zoom-in' data-aos-delay='50' className="ml-10 text-2xl text-white font-[600]">
               <span className="text-[yellow]">100% Trusted</span> Electronics Gadget
             </h1>
-            <button data-aos='zoom-in' data-aos-delay='50' className="text-black font-[600] ml-10 bg-yellow-300 rounded-lg px-6 py-3">
+            <button data-aos='zoom-in' data-aos-delay='50' className="text-black font-[600] ml-10 bg-yellow-300 rounded-lg px-2 py-1 md:px-6 md:py-3">
               ONLINE COLLECTIONS
             </button>
           </div>
@@ -60,16 +60,16 @@ function Hero() {
             className="w-full md:h-[500px] lg:h-[700px] flex flex-col justify-center items-start gap-5 bg-cover bg-center"
             style={{ backgroundImage: `url(${headset})` }}
           >
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-[yellow] border border-[yellow] rounded-lg ml-10 px-6 py-3 text-xl">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="px-2 py-2 text-[yellow] border border-[yellow] rounded-lg ml-10 md:px-6 md:py-3 text-xl">
               Get Upto 80% Discount Offer
             </h1>
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-8xl text-white font-[600] ml-10">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-3xl md:text-8xl text-white font-[600] ml-10">
               PREMIUM <br/>HEADSET
             </h1>
             <h1 data-aos='zoom-in' data-aos-delay='50' className="ml-10 text-2xl text-white font-[600]">
               <span className="text-[yellow]">100% Trusted</span> Audio Gear
             </h1>
-            <button data-aos='zoom-in' data-aos-delay='50' className="text-black font-[600] ml-10 bg-yellow-300 rounded-lg px-6 py-3">
+            <button data-aos='zoom-in' data-aos-delay='50' className="text-black font-[600] ml-10 bg-yellow-300 rounded-lg px-2 py-1 md:px-6 md:py-3">
               SHOP NOW
             </button>
           </div>
@@ -81,16 +81,16 @@ function Hero() {
             className="w-full md:h-[500px] lg:h-[700px] flex flex-col justify-center items-start gap-5 bg-cover bg-center"
             style={{ backgroundImage: `url(${earbud})` }}
           >
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-[yellow] border border-[yellow] rounded-lg ml-10 px-6 py-3 text-xl">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="px-2 py-2 text-[yellow] border border-[yellow] rounded-lg ml-10 md:px-6 md:py-3 text-xl">
               Get Upto 80% Discount Offer
             </h1>
-            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-8xl text-white font-[600] ml-10">
+            <h1 data-aos='zoom-in' data-aos-delay='50' className="text-3xl md:text-8xl text-white font-[600] ml-10">
               WIRELESS <br/>EARBUDS
             </h1>
             <h1 data-aos='zoom-in' data-aos-delay='50' className="ml-10 text-2xl text-white font-[600]">
               <span className="text-[yellow]">100% Trusted</span> Audio Tech
             </h1>
-            <button data-aos='zoom-in' data-aos-delay='50' className="text-black font-[600] ml-10 bg-yellow-300 rounded-lg px-6 py-3">
+            <button data-aos='zoom-in' data-aos-delay='50' className="px-2 py-1 md:px-6 md:py-3 text-black font-[600] ml-10 bg-yellow-300 rounded-lg">
               EXPLORE PRODUCTS
             </button>
           </div>

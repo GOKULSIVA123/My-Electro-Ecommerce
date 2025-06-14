@@ -6,10 +6,15 @@ import Home from "./Pages/Home";
 import Product from './sections/Product';
 import Favourite from './Pages/Favourite';
 import Login from "./Pages/Login"
+import { useLocation } from 'react-router-dom';
 export const cartcontent= createContext();
 function App() {
+  const location=useLocation();
   const [cartvalue, setCartValue] = useState([]);
   const [fav,setFav]=useState([]);
+  const [login1,setLogin1]=useState(true);
+  console.log(login1);
+  
   const updateCartQuantity = (id, newQuantity) => {
     setCartValue(prev => 
       prev.map(item => 
@@ -20,8 +25,10 @@ function App() {
     );
   };
   return (
-    <cartcontent.Provider value={{cartvalue,setCartValue,updateCartQuantity,fav,setFav}}>
-    <Header></Header>
+    <cartcontent.Provider value={{cartvalue,setCartValue,updateCartQuantity,fav,setFav,login1,setLogin1}}>
+    {login1?
+    <Header></Header>:<></>
+}
     <Routes>
       <Route path='/' element={<Home ></Home>}></Route>
       <Route path='/Cart1' element={<Cart1></Cart1>}></Route>
